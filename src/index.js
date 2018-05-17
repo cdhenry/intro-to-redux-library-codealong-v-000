@@ -8,6 +8,6 @@ import './index.css';
 const store = createStore(shoppingListItemReducer);
 
 ReactDOM.render(
-  <App />,
+  <App store={store}/>,
   document.getElementById('root')
 );
